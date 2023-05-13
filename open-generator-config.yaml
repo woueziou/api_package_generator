@@ -1,0 +1,4 @@
+# Config options for the dart-dio generator
+pubName: your_package_name
+pubVersion: 1.0.6
+pubDescription: "Your package description"
