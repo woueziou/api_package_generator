@@ -1,8 +1,8 @@
 echo "Open api Gen tool! write a commit message"
 read message
 echo "Getting swagger.json"
-curl $1
-# curl https://map-api-wapp.azurewebsites.net/swagger/v1/swagger.json -o swagger.json
+curl $1 -o swagger.json
+# curl https://map-api-wapp.azurewebsites.net/swagger/v1/swagger.json
 rm -rf lib &&
 rm -rf .dart_tool &&
 rm -rf doc &&
